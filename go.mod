@@ -4,7 +4,7 @@ go 1.22.5
 
 require github.com/PlayerR9/MyGoLib v0.4.9
 
-require github.com/PlayerR9/lib_units v0.1.7 // indirect
+require github.com/PlayerR9/lib_units v0.1.7
 
 require (
 	github.com/PlayerR9/listlike v0.1.2
