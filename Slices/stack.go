@@ -1,8 +1,8 @@
 package Slices
 
 import (
-	uc "github.com/PlayerR9/MyGoLib/Units/common"
-	lls "github.com/PlayerR9/stack"
+	uc "github.com/PlayerR9/lib_units/common"
+	lls "github.com/PlayerR9/listlike/stack"
 )
 
 // Laster is an interface for a stack of elements.

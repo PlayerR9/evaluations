@@ -1,8 +1,8 @@
 package FSM
 
 import (
-	ut "github.com/PlayerR9/MyGoLib/Units/Tray"
-	uc "github.com/PlayerR9/MyGoLib/Units/common"
+	ut "github.com/PlayerR9/MyGoLib/CustomData/Tray"
+	uc "github.com/PlayerR9/lib_units/common"
 )
 
 // DetFunc is a function that determines the value of an element of the FSM.

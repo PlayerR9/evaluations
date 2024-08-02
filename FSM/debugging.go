@@ -3,9 +3,9 @@ package FSM
 import (
 	"strings"
 
-	ub "github.com/PlayerR9/MyGoLib/Units/Debugging"
-	ut "github.com/PlayerR9/MyGoLib/Units/Tray"
-	uc "github.com/PlayerR9/MyGoLib/Units/common"
+	ut "github.com/PlayerR9/MyGoLib/CustomData/Tray"
+	ub "github.com/PlayerR9/MyGoLib/Utility/Debugging"
+	lustr "github.com/PlayerR9/lib_units/strings"
 )
 
 // DebugPrintTray is a helper function that prints the contents of a tray.
@@ -32,7 +32,7 @@ func DebugPrintTray[T any](tray ut.Trayer[T]) []string {
 			break
 		}
 
-		str := uc.StringOf(val)
+		str := lustr.GoStringOf(val)
 		values = append(values, str)
 
 		remaining := tray.Move(1)

@@ -1,7 +1,7 @@
 package Slices
 
 import (
-	uc "github.com/PlayerR9/MyGoLib/Units/common"
+	uc "github.com/PlayerR9/lib_units/common"
 )
 
 // LeafEvaluater is an interface that represents a leaf evaluater.

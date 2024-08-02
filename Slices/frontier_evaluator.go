@@ -1,9 +1,9 @@
 package Slices
 
 import (
-	uc "github.com/PlayerR9/MyGoLib/Units/common"
-	us "github.com/PlayerR9/MyGoLib/Units/slice"
-	"github.com/PlayerR9/stack/stack"
+	uc "github.com/PlayerR9/lib_units/common"
+	us "github.com/PlayerR9/lib_units/slices"
+	"github.com/PlayerR9/listlike/stack"
 )
 
 // Accepter is an interface that represents an accepter.

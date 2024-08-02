@@ -3,8 +3,8 @@ package FSM
 import (
 	"fmt"
 
-	ut "github.com/PlayerR9/MyGoLib/Units/Tray"
-	uc "github.com/PlayerR9/MyGoLib/Units/common"
+	ut "github.com/PlayerR9/MyGoLib/CustomData/Tray"
+	uc "github.com/PlayerR9/lib_units/common"
 )
 
 // FSM is a struct that represents a finite state machine.
